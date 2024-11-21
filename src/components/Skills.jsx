@@ -13,15 +13,12 @@ const Skills = () => {
           {/* Section Heading */}
           <div className="text-center mb-10">
             <h2 className="text-5xl font-extrabold text-purple-400 mb-4">
-              My Skills
+            Skills & Abilities 
             </h2>
-            <p className="text-xl font-normal leading-relaxed">
-              Here are some of the tools and technologies I specialize in:
-            </p>
           </div>
 
           {/* Skills Grid */}
-          <div className="flex gap-20">
+          <div className="flex flex-wrap gap-12 px-4 justify-center lg:px-0">
             {/* Skill 1 */}
             <div className="flex flex-col items-center hover:scale-110 transition-all duration-300 hover:cursor-cell">
               <FaHtml5 className="text-8xl text-orange-600 bg-white rounded-md p-2" />

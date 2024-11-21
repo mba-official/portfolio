@@ -20,7 +20,7 @@ const Header = ({ setActiveSection }) => {
 
         {/* Menu Items */}
         <ul
-          className={`flex-col lg:flex-row lg:space-x-10 lg:flex absolute lg:static text-white w-full lg:w-auto left-0 top-16 lg:top-auto p-4 lg:p-0 ${
+          className={`flex-col lg:flex-row lg:space-x-10 lg:flex absolute lg:static bg-white lg:bg-transparent lg:text-white text-black w-full lg:w-auto left-0 top-16 lg:top-auto p-4 lg:p-0 ${
             isOpen ? "flex" : "hidden"
           }`}
         >
