@@ -15,16 +15,16 @@ export const Main_section = () => {
                 <div className="pic flex flex-col lg:items-start lg:flex-row space-y-1 lg:space-y-2 gap-4 items-center">
                     <img src={ProfilePic} alt="" className='h-48 rounded-lg shadow-purple-500/50 hover:cursor-cell hover:shadow-xl hover:shadow-purple-400/50 transition-all duration-500' />
                     <ul className="lg:space-y-3 space-x-4 flex flex-row lg:flex-col lg:space-x-0 items-center lg:items-start">
-                        <a href="$"><li>
+                        <a href="https://www.linkedin.com/in/mbadev/"><li>
                             <FaLinkedinIn size={34} className='text-blue-600 bg-white p-1 rounded-md hover:cursor-pointer hover:translate-x-1 duration-500' /> {/* LinkedIn Icon */}
                         </li></a>
-                        <a href="£"><li>
+                        <a href="https://www.instagram.com/mba_devop/"><li>
                             <FaInstagram size={34} className='text-pink-600 bg-white p-1 rounded-md hover:cursor-pointer hover:translate-x-1 duration-500 ' /> {/* Facebook Icon */}
                         </li></a>
-                        <a href="£"><li>
+                        <a href="https://wa.me/+923289638996"><li>
                             <FaWhatsapp size={34} className='text-green-700 bg-white p-1 rounded-md hover:cursor-pointer hover:translate-x-1 duration-500' /> {/* Facebook Icon */}
                         </li></a>
-                        <a href="£"><li>
+                        <a href="https://github.com/mba-official"><li>
                             <FaGithub size={34} className='text-gray-700 bg-white p-1 rounded-md hover:cursor-pointer hover:translate-x-1 duration-500' /> {/* Facebook Icon */}
                         </li></a>
                     </ul>
